@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+</head>
+<body>
+    <form action="/server">
+        <h1>Radio button</h1>
+        <p>Use to select only one option</p>
+
+        <hr>
+        <div>
+             <h4>Are you eligible to vote?</h4>
+        
+        <input type="radio" id="yes" name="eligibility" value="yes">
+        <label for="yes">Yes</label>
+        <br>
+        
+        <input type="radio" id="no" name="eligibility" value="no">
+        <label for="no">No</label>
+        <br>
+        
+        <button type="submit">Submit</button>
+        </div>
+        <hr>
+        <div>
+            <input type="radio" id="Apple" name="fruits" value="Apple" >
+            <label for="Apple">Apple</label>
+             <input type="radio" id="Banana" name="fruits" value="Banana" >
+            <label for="Banana">Banana</label>
+            
+
+            <br>
+            <button type="submit">submit</button>
+        </div>
+        <br>
+        <div>
+               Choose your subjects
+               <br>
+               <input type="checkbox" id="Maths" name="subjects" value="Maths">
+               <label for="Maths">Maths</label>
+               <br>
+                <input type="checkbox" id="English" name="subjects" value="English">
+               <label for="English">English</label>
+               <br>
+               <button type="submit">Submit</button>
+
+
+        </div>
+        <br>
+        <div>
+            Select your Profession
+            <br>
+            <select name="Profession" id="Profession">
+                <option selected >Select your option</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="watchman">watchman</option>
+            </select>
+            <br>
+            <button type="submit">Submit</button>
+        </div>
+
+     
+       
+    </form>
+</body>
+</html>
