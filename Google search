@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+</head>
+<body>
+    
+
+    <form action="https://www.google.com/search">
+        <h3>
+        Google Search
+    </h3>
+    <label for="Google search">Google search </label>
+        <input type="text" 
+        name="q"
+        placeholder="Explore"
+        id="Google search">
+        <button type="submit">Search</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
