@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+</head>
+<body>
+    <h1>Text Area</h1>
+    <p> Used to take input text </p>
+<hr>
+    <form action="/server">
+        <div>
+          
+            <br>
+            <label for="Feedback">Please give your valuable feedback</label>
+            <textarea id="Feedback" 
+            name="Feedback"
+            rows="5"
+            cols="100"
+            placeholder="Enter here"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+            <br>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
