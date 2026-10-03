@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range input</title>
+</head>
+<body>
+    <h2>Range Input </h2>
+    <p> Jb hame input range me lena ho tb use krte hai isee</p>
+    <form action="/server">
+    <input type="range"
+     min="0" 
+     max="100"
+      step="10"
+       name="Volume"
+        value="20">
+    <label for="Volume">Volume</label>
+    
+    <br>
+    <button type="reset">reset</button>
+    <br>
+    <button type="submit">Submit</button>
+    
+    </form>
+
+   
+</body>
+</html>
